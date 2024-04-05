@@ -1,1 +1,0 @@
-https://juanpintodev.github.io/
