@@ -36,8 +36,8 @@ body{
     width: 100%;
 }
 
-input > text{
-    width: 10rem;
+input#text{
+    width: 93%;
     font-size: 1rem;
 
 }
@@ -148,6 +148,8 @@ span.material-symbols-outlined{
 
 #divlista{
     width: 100%;
+    height: 22rem;
+    overflow: auto;
 }
 
 .lista{
@@ -164,7 +166,6 @@ ul.lista > li{
     margin: 0;
     padding: 0.5rem;
     border: 0.5px solid rgb(134, 134, 134);
-    overflow: auto;
     gap: 0.5rem;
 }
 
@@ -204,15 +205,6 @@ p{
         text-decoration: none;
      }
 
-.checknegativo2{
-    justify-content: center;
-    align-items: center;
-    background-color:  red;
-    color: aliceblue;
-    border-radius: 1.5rem;
-    cursor: pointer;
-
-}
     
 .checknegativo1:hover{
         background-color:  red;
@@ -241,13 +233,6 @@ p{
     text-decoration: none;
  }
 
-.checkpositivo2{
-    background-color:  rgb(2, 183, 2);
-    color: aliceblue;
-    border-radius: 1.5rem;
-    cursor: pointer;
-
-}
 .checkpositivo1:hover{
     background-color:  rgb(2, 183, 2);
     color: aliceblue;
