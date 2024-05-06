@@ -13,7 +13,7 @@
     <form id="formulario">
         <div id="input1">
         <input id="text"  placeholder="Crear nueva tarea..."></input>
-        <button id="boton"><span class="material-symbols-outlined">
+        <button id="boton" disabled><span class="material-symbols-outlined">
             add
             </span></button>
         </div>
@@ -22,51 +22,21 @@
         <ul class="lista">
             <li id="descripcion">
             <p id="descripcion">Cuadro de descripciones</p></li>
-            <li><button type="button" class="checknegativo1"><span class="material-symbols-outlined">delete_sweep</span></button>
-            
-            <p class="tareas" id="tarea1">Limpiar la casa</p>
-            <button type="button" class="checkpositivo1"><span class="material-symbols-outlined">verified</span></button>
-        </li>
-
-        <li><button type="button" class="checknegativo1"><span class="material-symbols-outlined">delete_sweep</span></button>
-            
-            <p class="tareas">Ir al supermercado</p>
-            <button type="button" class="checkpositivo1"><span class="material-symbols-outlined">verified</span></button>
-        </li>
-
-        <li><button type="button" class="checknegativo1"><span class="material-symbols-outlined">delete_sweep</span></button>
-            
-            <p class="tareas">Lavar la ropa y tender la cama</p>
-            <button type="button" class="checkpositivo1"><span class="material-symbols-outlined">verified</span></button>
-        </li>
-
-
-        <li><button type="button" class="checknegativo1"><span class="material-symbols-outlined">delete_sweep</span></button>
-            
-            <p class="tareas">Organizar los cuartos</p>
-            <button type="button" class="checkpositivo1"><span class="material-symbols-outlined">verified</span></button>
-        </li>
-
-
-        <li><button type="button" class="checknegativo1"><span class="material-symbols-outlined">delete_sweep</span></button>
-            
-            <p class="tareas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusamus eligendi mollitia 
-                vel, magnam rerum maiores inventore eveniet in, doloribus reprehenderit odio dolore autem odit minima nulla 
-                saepe id aliquam.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusamus eligendi mollitia 
-                vel, magnam rerum maiores inventore eveniet in, doloribus reprehenderit odio dolore autem odit minima nulla 
-                saepe id aliquam.</p>
-            <button type="button" class="checkpositivo1"><span class="material-symbols-outlined">verified</span></button>
+            <li class="nuevatarea"><button class="checknegativo1"><span class="material-symbols-outlined">delete_sweep</span></button>
+            <p class="tareas"></p>
+            <button class="checkpositivo1"><span class="material-symbols-outlined">verified</span></button>
         </li>
         </ul>
     </div>
         
     <div class="botones">
-        <label id="boton2">Total: 3</label>
+        <label id="boton2">Total: </label>
         <label id="boton3">Completado: 1</label>
         <label id="boton4">Incompleto: 2</label>
     </div>
     </form>
 </div>
+
+<script src="tareas.js"></script>
 </body>
 </html>

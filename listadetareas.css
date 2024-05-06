@@ -189,10 +189,15 @@ p{
     align-items: center;
     color: rgb(3, 40, 32);
     justify-content: center;
+    white-space: nowrap;
 }
 
-#tarea1{
-    text-decoration: line-through;
+li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
 }
 
 .checknegativo1{
@@ -221,6 +226,11 @@ p{
     30%{
         transform: rotateZ(10deg);
     }
+}
+
+.chequeado{
+    text-decoration: line-through;
+    color: rgb(51, 51, 51);
 }
 
 .checkpositivo1{
@@ -261,6 +271,7 @@ button{
     background-color: rgb(127, 3, 184);
     border-radius: 0.3rem;
     padding: 0.5rem;
+    width: 14%;
 
 }
 
@@ -268,6 +279,7 @@ button{
     background-color: rgb(2, 200, 2);
     border-radius: 0.3rem;
     padding: 0.5rem;
+    width: 20%;
 
 }
 
@@ -275,6 +287,7 @@ button{
     background-color: red;
     border-radius: 0.3rem;
     padding: 0.5rem;
+    width: 20%;
 
 }
 
@@ -331,7 +344,7 @@ button{
     }
     
     .botones{
-        font-size: x-large;
+        font-size: 1.3rem;
         justify-content: space-around;
     }
     #text{
